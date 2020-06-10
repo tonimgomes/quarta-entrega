@@ -1,0 +1,149 @@
+/*
+Theme Name: Capacitação-WP
+Theme URI: https://tonimwp.com
+Description: Site para a capcitação de WP
+Author: Antonio Gomes
+Author URI: https://tonimwp.com
+Version: 1.0
+*/ 
+
+body{
+    padding: 0;
+    margin: 0;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+}
+#logo{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1.5rem;
+}
+
+#header{
+    height: 700px;
+    background: url(Minecraft-Wallpaper.jpg) center top;
+    
+}
+
+#wrap{
+    margin: 0 auto;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    text-align: center;
+    padding-top: 7rem;
+}
+
+#header h1{
+    margin: 0;
+    font-family: 'Press Start 2P', cursive;
+}
+#header p{
+    margin: 0;
+    padding-top: 1rem;
+    font-size:2rem;
+    color: black;
+    font-weight: bolder;
+    padding-bottom: 1rem;
+}
+
+#custom-botao{
+    display: block;
+    margin: 0 auto;
+    width: 500px;
+    padding: 1rem;
+    background-color: rgb(38, 58, 58);
+    text-decoration: none;
+    color: white;
+    border-radius: 15px;
+    font-size: 1.3rem;
+}
+@media screen and (max-width: 1100px){
+    body{
+        padding: 0;
+        margin: 0;
+        font-size: 1rem;
+        font-family: 'Montserrat', sans-serif;
+    }
+    #logo{
+        font-family: 'Press Start 2P', cursive;
+        font-size: 2rem;
+    }
+    #wrap{
+        margin: 0 auto;
+        padding-right: 3rem;
+        padding-left: 3rem;
+        text-align: center;
+        padding-top: 3rem;
+    }
+    #header h1{
+        margin: 0;
+        font-family: 'Press Start 2P', cursive;
+        font-size: 2rem;
+    }
+    #header p{
+        margin: 0;
+        padding-top: 1rem;
+        font-size:1.8rem;
+        color: black;
+        font-weight: bolder;
+        padding-bottom: 1rem;
+    }
+    #custom-botao{
+        display: block;
+        margin: 0 auto;
+        width: 200px;
+        padding: 1rem;
+        background-color: rgb(38, 58, 58);
+        text-decoration: none;
+        color: white;
+        border-radius: 15px;
+        font-size: 1rem;
+    }
+  }
+@media screen and (max-width: 700px){
+    body{
+        padding: 0;
+        margin: 0;
+        font-size: 1rem;
+        font-family: 'Montserrat', sans-serif;
+    }
+    #header{
+        background-image: contain;
+    }
+    #logo{
+        font-family: 'Press Start 2P', cursive;
+        font-size: 0.7rem;
+    }
+    #wrap{
+        margin: 0 auto;
+        padding-right: 1rem;
+        padding-left: 1rem;
+        text-align: center;
+        padding-top: 3rem;
+    }
+    #header h1{
+        margin: 0;
+        font-family: 'Press Start 2P', cursive;
+        font-size: 1.3rem;
+    }
+    #header p{
+        margin: 0;
+        padding-top: 1rem;
+        font-size:1.5rem;
+        color: black;
+        font-weight: bolder;
+        padding-bottom: 1rem;
+    }
+    #custom-botao{
+        display: block;
+        margin: 0 auto;
+        width: 150px;
+        padding: 1rem;
+        background-color: rgb(38, 58, 58);
+        text-decoration: none;
+        color: white;
+        border-radius: 15px;
+        font-size: 0.7rem;
+    }
+  }
+/**/
+  
